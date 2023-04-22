@@ -10,7 +10,7 @@ public class ApiTest {
 		return "Hello world";
 	}
 	
-	@GetMapping("/api/get")
+	@GetMapping("/api/test")
 	public String ApiTest() {
 		return "Api test";
 	}
